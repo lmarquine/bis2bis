@@ -1,0 +1,57 @@
+//
+//  Common
+//  _____________________________________________
+& when (@media-common =true) {
+  .minicart-wrapper {
+    .contet-minicart {
+      .lib-vendor-prefix-display();
+
+      .bag-icon {
+        &:before {
+          content: "";
+          width: 35px;
+          height: 35px;
+          display: block;
+          padding: 0 10px;
+          background-size: auto;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-image: url("@{baseDir}images/bis2bis/bag.svg");
+        }
+      }
+
+      .showcart,
+      .showcart.active {
+        width: 100px;
+        .lib-vendor-prefix-display();
+        .lib-vendor-prefix-flex-direction (column);
+  
+        &:before {
+          .lib-visually-hidden();
+        }
+  
+        .counter {
+          margin: 0 !important;
+          text-align: start !important;
+          background-color: transparent !important;
+        }
+      }
+    }
+  }
+
+  .minicart-items-wrapper {
+    height: 200px !important;
+  }
+}
+
+//
+//  Mobile
+//  _____________________________________________
+.media-width(@extremum, @break) when (@extremum ='max') and (@break =@screen__m) {}
+
+//
+//  Desktop
+//  _____________________________________________
+.media-width(@extremum, @break) when (@extremum ='min') and (@break =@screen__m) {
+
+}

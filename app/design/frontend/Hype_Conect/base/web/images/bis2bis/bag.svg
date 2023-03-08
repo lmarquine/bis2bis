@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="48" viewBox="0 0 42 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44c0b7;
+        stroke: #252158;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1463" y="65" width="45" height="51" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.6"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-1464.5 -66.5)" style="fill: #44c0b7; filter: url(#filter)">
+    <path id="Sacola" class="cls-1" d="M1494.61,105.1l4.43-21.446a1.157,1.157,0,0,0-.82-1.352l-3.22-.884,0.27-1.039a6.74,6.74,0,0,0-4.71-8.178,6.545,6.545,0,0,0-8.07,4.666l-0.27,1.039-3.22-.883a1.122,1.122,0,0,0-1.37.748l-6.63,20.9a1.137,1.137,0,0,0,.08.9,1.163,1.163,0,0,0,.71.564l21.4,5.88h0a1.125,1.125,0,0,0,1.39-.8Zm-11.99-22.281a1.245,1.245,0,0,1-.87-1.51,1.206,1.206,0,0,1,1.49-.862,1.246,1.246,0,0,1,.87,1.51A1.207,1.207,0,0,1,1482.62,82.815Zm9.1-2.3L1485.5,78.8l0.27-1.039a3.184,3.184,0,0,1,3.93-2.273,3.285,3.285,0,0,1,2.3,3.984Zm0.54,4.951a1.246,1.246,0,0,1-.87-1.51,1.207,1.207,0,0,1,1.49-.861,1.246,1.246,0,0,1,.87,1.51A1.207,1.207,0,0,1,1492.26,85.465Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-1464.5 -66.5)" xlink:href="#Sacola" style="stroke: #252158; filter: none; fill: none"/>
+</svg>

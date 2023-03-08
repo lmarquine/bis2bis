@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="37" viewBox="0 0 34 37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44c0b7;
+        stroke: #252158;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="556" y="72" width="37" height="40" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.6"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-557.5 -73.5)" style="fill: #44c0b7; filter: url(#filter)">
+    <path id="user" class="cls-1" d="M574,78a6.592,6.592,0,1,0,6.6,6.592A6.6,6.6,0,0,0,574,78Zm8.211,17.49a9.415,9.415,0,0,0-6.745-2.842h-2.933a9.414,9.414,0,0,0-6.744,2.842A9.6,9.6,0,0,0,563,102.268a0.733,0.733,0,0,0,.733.732h20.531a0.733,0.733,0,0,0,.734-0.732A9.6,9.6,0,0,0,582.21,95.49Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-557.5 -73.5)" xlink:href="#user" style="stroke: #252158; filter: none; fill: none"/>
+</svg>

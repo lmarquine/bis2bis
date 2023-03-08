@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="39" viewBox="0 0 38 39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44c0b7;
+        stroke: #252158;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1245" y="71" width="41" height="42" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.6"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-1246.5 -72.5)" style="fill: #44c0b7; filter: url(#filter)">
+    <path id="whatsapp" class="cls-1" d="M1265.5,77h0a12.492,12.492,0,0,0-10.12,19.826l-1.56,4.644,4.81-1.536A12.358,12.358,0,0,0,1265.5,102,12.5,12.5,0,1,0,1265.5,77Zm7.28,17.652a3.547,3.547,0,0,1-2.46,1.764c-0.65.139-1.5,0.25-4.37-.941-3.68-1.522-6.04-5.255-6.23-5.5a7.2,7.2,0,0,1-1.48-3.77,3.98,3.98,0,0,1,1.28-3.042,1.807,1.807,0,0,1,1.27-.448c0.16,0,.3.008,0.42,0.014a0.736,0.736,0,0,1,.8.617c0.3,0.727,1.03,2.52,1.12,2.7a0.726,0.726,0,0,1,.05.676,2.08,2.08,0,0,1-.4.574c-0.19.212-.36,0.375-0.55,0.6a0.6,0.6,0,0,0-.14.778,10.8,10.8,0,0,0,2.03,2.52,9.073,9.073,0,0,0,2.93,1.808,0.789,0.789,0,0,0,.88-0.139,14.821,14.821,0,0,0,.97-1.294,0.7,0.7,0,0,1,.9-0.272c0.34,0.117,2.12,1,2.49,1.183a1.784,1.784,0,0,1,.7.427A3.086,3.086,0,0,1,1272.78,94.652Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-1246.5 -72.5)" xlink:href="#whatsapp" style="stroke: #252158; filter: none; fill: none"/>
+</svg>
